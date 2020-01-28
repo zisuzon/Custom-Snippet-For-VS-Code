@@ -1,0 +1,30 @@
+{
+	"Print to console": {
+		"prefix": "logger",
+		"body": [
+			"console.log('$1')"
+		],
+		"description": "Log output to console"
+  },
+  "Arrow function": {
+		"prefix": "arrow",
+		"body": [
+			"() => {}"
+		],
+		"description": "Arrow function snippet"
+  },
+  "Promise then": {
+		"prefix": "promise-then",
+		"body": [
+			".then(($1) => { $2 })"
+		],
+		"description": "'then' method after promise succeeed"
+  },
+  "Promise catch": {
+		"prefix": "promise-catch",
+		"body": [
+			".catch(($1) => { $2 })"
+		],
+		"description": "'catch' method after promise rejected"
+	}
+}
